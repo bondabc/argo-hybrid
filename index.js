@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env nod
 
 const http = require('http');
 const WebSocket = require('ws');
@@ -15,13 +15,13 @@ const exec = promisify(require('child_process').exec);
 // ==================== ENVIRONMENT VARIABLES ====================
 const FILE_PATH = process.env.FILE_PATH || '.tmp';
 const PORT = process.env.PORT || 3000;
-const UUID = process.env.UUID || '9afd1229-b893-40c1-84dd-51e7ce204913';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';
-const ARGO_AUTH = process.env.ARGO_AUTH || '';
+const UUID = process.env.UUID || '98030110-6279-4def-8abc-0123456789de';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'fgfg.biz.id';
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNThiZGFiODc1M2Q1ZTA4N2E5MGEyOTMxODdiZDVmNDkiLCJ0IjoiNmZmNTk4YzQtNWE2Mi00NDM0LWFkZDYtZTYyOWIzZjBhODc3IiwicyI6IjlmbEl2VVBheUw4WTY1WmxjWmdMMVMxVTdGRU1PSllPQXFpdnZWc29wZnc9In0=';
 const ARGO_PORT = process.env.ARGO_PORT || 8001;
-const CFIP = process.env.CFIP || 'bug.com';
+const CFIP = process.env.CFIP || 'onesignal.com';
 const CFPORT = process.env.CFPORT || 443;
-const NAME = process.env.NAME || 'MEDIAFAIRY';
+const NAME = process.env.NAME || 'FENG';
 
 // ==================== GLOBAL CONSTANTS ====================
 const horse = Buffer.from("dHJvamFu", 'base64').toString(); 
